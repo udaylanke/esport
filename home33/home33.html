@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https:/ /use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" />
+        <title>Home | Horizon</title>
+    </head>
+    <body>
+        <div class="tab">
+            <button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen"><i class="fa fa-fw fa-home"></i> Home</button>
+            <button class="tablink" onclick="openPage('Blog', this, 'white')" ><i class="fas fa-blog"></i> Blog</button>
+            <button class="tablink" onclick="openPage('Tournaments', this, 'white')"><i class="fab fa-xbox"></i>Tournaments</button>
+            <button class="tablink" onclick="openPage('Social', this, 'white')"><i class="fas fa-mobile-alt"></i> Social</button>
+            <button class="tablink" onclick="openPage('Login',this,'white')"><i class="fa fa-fw fa-user"></i> Login</button>
+            <button class="tablink" onclick="openPage('Contact', this, 'white')"><i class="fa fa-fw fa-envelope"></i> Contact</button>
+        </div>
+        <div id="Home" class="tabcontent">  
+            <video height="630" width="1300"  autoplay muted>
+                <source src="VID/Forza Horizon 5 - Official Trailer.mp4" type="video/mp4">
+                Browser does not support the video tag.
+            </video>
+        </div>
+
+        <div id="Blog" class="tabcontent">
+            <br>
+            <p>Series 9 includes numerous changes to improve your Forza Horizon 5 experience. <br>This includes a fix for an issue that prevented full 12-player Convoys from launching events,<br> a fix for the darkened hood and bumper views that occurred when changing camera views,<br> and a fix for Daily Challenges in the Festival Playlist that were either<br> incompletable or suffered from progress loss after rebooting.<br>
+            For players with large car collections who wish to easily auction or remove <br> duplicate cars from their garage, we’ve introduced a new filter option to the car select screen <br>that when enabled, shows only the cars you own duplicates of.<br><img src="img/h1.jpg" height="250px" width="500px" align="right"/>
+            In Series 9, the list of officially supported languages for subtitles<br> in Forza Horizon 5 has been updated to include Danish, Greek, Dutch, Norwegian, Swedish, Finnish<br> and European Portuguese. We’re also expanding VO to include European Spanish,<br> Italian and Korean.<br>
+            For the full list of fixes and improvements coming in Series 9,<br> check out our release notes. We continue to listen closely to your Forza Horizon 5 feedback as <br>we introduce new fixes with each game update. <br>Here’s where you can stay up to date on the issues we’re currently investigating.<br>
+            Series 9 introduces the option to play Horizon Stories in co-op,<br> supporting up to six players in total. In co-op play, the Convoy Leader is allowed to host<br> any Horizon Story available to them.<br>
+            </p>
+        </div>
+
+        <div id="Tournaments" class="tabcontent">
+            <h2>Live Competitions</h2>
+            <table>
+                <tr>
+                    <td>
+                        <a href="#" ><img src="img/3331.jpg" height="200px" width="100%"/></a>
+                    </td>
+                    <td>
+                        <a href="#" ><img src="img/3332.jpg" height="200px" width="100%"/></a>
+                    </td>
+                    <td>
+                        <a href="#" ><img src="img/3333.jpg" height="200px" width="100%"/></a>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <h2>Top Competitions</h2>
+            <table>
+                <tr>
+                    <td>
+                        <a href="#" ><img src="img/3334.jpg" height="200px" width="100%"/></a>
+                    </td>
+                    <td>
+                        <a href="#" ><img src="img/3335.jpg" height="200px" width="100%"/></a>
+                    </td>
+                    <td>
+                        <a href="#" ><img src="img/3336.jpg" height="200px" width="100%"/></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="Social" class="tabcontent">
+            <h2 align="center"><b>Be A Part Of Us </b><i></i></h2>
+            <p><a href="https://www.instagram.com"><i class="fab fa-instagram fa-solid fa-3x"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.twitter.com"><i class="fab fa-twitter fa-3x"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp fa-3x"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com"><i class="fab fa-facebook fa-3x"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com"><i class="fab fa-youtube fa-3x"></i></a>
+            </p>
+        </div>
+          
+        <div id="Login" class="tabcontent">
+            <h3>Do you have an account already?</h3>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="login2.html" target="_self"><b><input type="submit" value="Login" name="login"></b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="idp-reg2.html" target="_self"><b><input type="submit" value="Sign Up" name="signup"></b></a>
+        </div>
+          
+        <div id="Contact" class="tabcontent">
+            <h3><b>Contact Us </b><i class="fas fa-at"></i></h3>
+            <p><b>E-Mail     : admin123@gmail.com</p>
+            <p><b>Contact No : 9786548795</p>
+        </div>
+
+
+
+        <script>
+        function openPage(pageName,elmnt,color) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "rgb(0, 135, 177)";
+          }
+          document.getElementById(pageName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+        }
+
+        document.getElementById("defaultOpen").click();
+        </script>
+   
+    </body>
+</html> 

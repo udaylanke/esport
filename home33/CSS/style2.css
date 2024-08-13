@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: Bahnschrift SemiCondensed;
+    background-image: url("../img/bg1.webp");
+    background-origin : cover;
+    background-size: cover;
+}
+
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 15%;
+    position: absolute;
+    top: 175px;
+    height: 51.5%;
+  }
+  
+  
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  
+.logo{
+    font-family: Bahnschrift SemiCondensed;
+    cursor: pointer;
+    height: 100px;
+    width: 150px;
+    padding-left: 45px;
+}
+
+
+
+.tabcontent {
+  color: whitesmoke;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  width: 100%;
+}
+
+#Home {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    padding: 30px;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+
+#Login{
+  background-color: whitesmoke;
+  color: #1a1a1a;
+  position: absolute;
+  opacity: 0.95;
+  top: 50%;
+  bottom:50%;
+  left: 15%;
+  height: 170px;
+  width: 362px;
+  align-content: center;
+  padding: 10px 10px 10px 35px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(0,0,0,2);
+  border-radius:10px;
+}
+
+#Blog {
+  background-color: whitesmoke;
+  color: #1a1a1a;
+  position: absolute;
+  opacity: 0.95;
+  top: 14.5%;
+  bottom:50%;
+  left: 15%;
+  height: 575px;
+  width: 1205px;
+  align-content: center;
+  padding: 10px 10px 10px 35px;
+  box-sizing: border-box;
+  font-size: large;
+}
+#Tournaments {
+  background-color: whitesmoke;
+  color: #1a1a1a;
+  position: absolute;
+  opacity: 0.95;
+  top: 12%;
+  bottom:50%;
+  left: 15%;
+  height: 625px;
+  width: 1205px;
+  align-content: center;
+  padding: 10px 10px 10px 35px;
+  box-sizing: border-box;
+}
+
+#Profile{
+  background-color: whitesmoke;
+  color: #1a1a1a;
+  position: absolute;
+  top: 12.5%;
+  bottom:20%;
+  left: 15%;
+  height: 600px;
+  width: 850px;
+  padding: 10px 10px 10px 25px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(0,0,0,2);
+  border-radius:10px;
+}
+
+
+#Social {
+  background-color: whitesmoke;
+  color: #1a1a1a;
+  position: absolute;
+  opacity: 0.95;
+  top: 40%;
+  bottom:50%;
+  left: 15%;
+  height: 200px;
+  width: 350px;
+  align-content: center;
+  padding: 10px 10px 10px 35px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(0,0,0,2);
+  border-radius:10px;
+}
+
+#Contact {
+  background-color: whitesmoke;
+  color: #1a1a1a;
+  position: absolute;
+  opacity: 0.95;
+  top: 55%;
+  bottom:50%;
+  left: 15%;
+  height: 170px;
+  width: 330px;
+  align-content: center;
+  padding: 10px 10px 10px 35px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba(0,0,0,2);
+  border-radius:10px;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: 0%;
+text-align: center;
+font-family: arial;
+}
+
